@@ -3,6 +3,7 @@
 /Packages
 /*.xcodeproj
 /artifacts
+.swiftpm/
 xcuserdata/
 DerivedData/
 .swiftpm/config/registries.json
