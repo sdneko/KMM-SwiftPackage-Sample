@@ -1,8 +1,0 @@
-framework module my_xcframework {
-    umbrella header "my_xcframework.h"
-
-    export *
-    module * { export * }
-
-    use Foundation
-}
