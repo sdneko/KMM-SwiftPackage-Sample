@@ -65,7 +65,7 @@ kotlin {
 
     tasks.register<Copy>("copyXCFramework") {
         from("build/XCFrameworks/debug")
-        into("../MySwiftLibrary/artifacts")
+        into("../SwiftLibrary/artifacts")
     }
 
     tasks.findByName("assembleMy_xcframeworkXCFramework")!!.dependsOn("copyXCFramework")
